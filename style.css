@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(archivos/fondoApp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.43);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.711);
+}
+
+h1,
+h2,
+p {
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.3s all;
+}
+
+input[type="text"]:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(66, 120, 149);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+button:hover {
+    background-color: rgba(66, 120, 149, 0.471);
+    ;
+}
+
+#responseData {
+    margin-top: 20px;
+    font-size: 18px;
+}
